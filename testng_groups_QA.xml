@@ -2,10 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/ADMIN/IdeaProjects/ATB7x-automationPrograms">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+                <include name="qa"></include>
+                <include name="dev"></include>
+            </run>
+        </groups>
         <classes>
-            <class name="ex_15092024_CRUD.TESTNG.test_04">
-
-
+            <class name="com.testingAcademy.ex_21092024.CRUD.test_06">
             </class>
 
         </classes>
