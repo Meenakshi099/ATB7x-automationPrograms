@@ -6,7 +6,7 @@ import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testng_01 {
+public class testng_01_AllureReport {
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that true == true")
